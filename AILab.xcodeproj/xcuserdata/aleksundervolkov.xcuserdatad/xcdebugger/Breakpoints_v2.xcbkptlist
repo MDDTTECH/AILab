@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A7CCD214-C215-46A7-B827-C762CDF54536"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5FA8D78A-D8B0-4F89-8837-E570CA79B881"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AILab/Domain/Message/MessageRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "send(request:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5FA8D78A-D8B0-4F89-8837-E570CA79B881 - 26711040e0557b65"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AILab.MessageRepository.send(request: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.String, Swift.Error&gt;"
+                  moduleName = "AILab"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksundervolkov/Projects/MDDT/labs/ailabs/AILab/AILab/Domain/Message/MessageRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "5FA8D78A-D8B0-4F89-8837-E570CA79B881 - b0a80dd5a30fe667"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; () in AILab.MessageRepository.send(request: Swift.String) -&gt; Combine.AnyPublisher&lt;Swift.String, Swift.Error&gt;"
+                  moduleName = "AILab"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksundervolkov/Projects/MDDT/labs/ailabs/AILab/AILab/Domain/Message/MessageRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2C340358-18D7-478D-808A-07EF719A6510"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/AILab-buqwbohwvagfkhdihqslrpqncswj/SourcePackages/checkouts/OpenAI/Sources/OpenAIKit/OpenAIKitRequests/Completions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "sendCompletion(prompt:model:maxTokens:temperature:n:topP:frequencyPenalty:presencePenalty:logprobs:stop:user:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3058D636-1823-43D6-BB01-A00763A85689"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/AILab-buqwbohwvagfkhdihqslrpqncswj/SourcePackages/checkouts/OpenAI/Sources/OpenAIKit/Helpers/OpenAIKitNetwork.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "request(_:url:body:headers:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3058D636-1823-43D6-BB01-A00763A85689 - 7dfb8e2082cd9682"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OpenAIKit.OpenAIKitNetwork.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: OpenAIKit.OpenAIHTTPMethod, url: Swift.String, body: Swift.Optional&lt;Foundation.Data&gt;, headers: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AILab"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksundervolkov/Library/Developer/Xcode/DerivedData/AILab-buqwbohwvagfkhdihqslrpqncswj/SourcePackages/checkouts/OpenAI/Sources/OpenAIKit/Helpers/OpenAIKitNetwork.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "612">
+               </Location>
+               <Location
+                  uuid = "3058D636-1823-43D6-BB01-A00763A85689 - 7dfb8e2082cd9682"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OpenAIKit.OpenAIKitNetwork.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(_: OpenAIKit.OpenAIHTTPMethod, url: Swift.String, body: Swift.Optional&lt;Foundation.Data&gt;, headers: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;, completion: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "AILab"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksundervolkov/Library/Developer/Xcode/DerivedData/AILab-buqwbohwvagfkhdihqslrpqncswj/SourcePackages/checkouts/OpenAI/Sources/OpenAIKit/Helpers/OpenAIKitNetwork.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "680">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1FEAA55-3C9C-424C-AA1F-9A8E3D17F0D2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/AILab-buqwbohwvagfkhdihqslrpqncswj/SourcePackages/checkouts/OpenAI/Sources/OpenAIKit/Helpers/OpenAIKitNetwork.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "request(_:url:body:headers:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

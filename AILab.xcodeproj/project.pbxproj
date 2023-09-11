@@ -8,22 +8,60 @@
 
 /* Begin PBXBuildFile section */
 		DC33027F2AA9116D00D70E40 /* AILabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC33027E2AA9116D00D70E40 /* AILabApp.swift */; };
-		DC3302812AA9116D00D70E40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3302802AA9116D00D70E40 /* ContentView.swift */; };
 		DC3302832AA9116E00D70E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3302822AA9116E00D70E40 /* Assets.xcassets */; };
 		DC3302872AA9116E00D70E40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3302862AA9116E00D70E40 /* Preview Assets.xcassets */; };
+		DC33028F2AA912A000D70E40 /* OpenAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = DC33028E2AA912A000D70E40 /* OpenAIKit */; };
+		DC3302922AA9136400D70E40 /* MessageRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3302912AA9136400D70E40 /* MessageRepository.swift */; };
+		DC3302982AA9800D00D70E40 /* MessageState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3302972AA9800D00D70E40 /* MessageState.swift */; };
+		DC33029A2AA9815D00D70E40 /* MessageEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3302992AA9815D00D70E40 /* MessageEvents.swift */; };
+		DC33029C2AA981A500D70E40 /* MessageBloc.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC33029B2AA981A500D70E40 /* MessageBloc.swift */; };
+		DC3302A02AA9886000D70E40 /* MessageSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC33029F2AA9886000D70E40 /* MessageSearchView.swift */; };
+		DC3302A82AAB329F00D70E40 /* AILabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3302A72AAB329F00D70E40 /* AILabTests.swift */; };
+		DC3302AF2AAB338400D70E40 /* MessageRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3302AE2AAB338400D70E40 /* MessageRepositoryTests.swift */; };
+		DC3302B32AAF4C2D00D70E40 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DC3302B22AAF4C2D00D70E40 /* README.md */; };
+		DC3302B52AAF532200D70E40 /* ViewExcension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3302B42AAF532200D70E40 /* ViewExcension.swift */; };
+		DC3302B72AAF53CA00D70E40 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3302B62AAF53CA00D70E40 /* Constants.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC3302A92AAB329F00D70E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC3302732AA9116D00D70E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC33027A2AA9116D00D70E40;
+			remoteInfo = AILab;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DC33027B2AA9116D00D70E40 /* AILab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AILab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC33027E2AA9116D00D70E40 /* AILabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AILabApp.swift; sourceTree = "<group>"; };
-		DC3302802AA9116D00D70E40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DC3302822AA9116E00D70E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC3302842AA9116E00D70E40 /* AILab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AILab.entitlements; sourceTree = "<group>"; };
 		DC3302862AA9116E00D70E40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC3302912AA9136400D70E40 /* MessageRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRepository.swift; sourceTree = "<group>"; };
+		DC3302972AA9800D00D70E40 /* MessageState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageState.swift; sourceTree = "<group>"; };
+		DC3302992AA9815D00D70E40 /* MessageEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageEvents.swift; sourceTree = "<group>"; };
+		DC33029B2AA981A500D70E40 /* MessageBloc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBloc.swift; sourceTree = "<group>"; };
+		DC33029F2AA9886000D70E40 /* MessageSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSearchView.swift; sourceTree = "<group>"; };
+		DC3302A52AAB329F00D70E40 /* AILabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AILabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3302A72AAB329F00D70E40 /* AILabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AILabTests.swift; sourceTree = "<group>"; };
+		DC3302AE2AAB338400D70E40 /* MessageRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageRepositoryTests.swift; sourceTree = "<group>"; };
+		DC3302B22AAF4C2D00D70E40 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DC3302B42AAF532200D70E40 /* ViewExcension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExcension.swift; sourceTree = "<group>"; };
+		DC3302B62AAF53CA00D70E40 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DC3302782AA9116D00D70E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC33028F2AA912A000D70E40 /* OpenAIKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3302A22AAB329F00D70E40 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,7 +74,9 @@
 		DC3302722AA9116D00D70E40 = {
 			isa = PBXGroup;
 			children = (
+				DC3302B22AAF4C2D00D70E40 /* README.md */,
 				DC33027D2AA9116D00D70E40 /* AILab */,
+				DC3302A62AAB329F00D70E40 /* AILabTests */,
 				DC33027C2AA9116D00D70E40 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				DC33027B2AA9116D00D70E40 /* AILab.app */,
+				DC3302A52AAB329F00D70E40 /* AILabTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,8 +93,9 @@
 		DC33027D2AA9116D00D70E40 /* AILab */ = {
 			isa = PBXGroup;
 			children = (
-				DC33027E2AA9116D00D70E40 /* AILabApp.swift */,
-				DC3302802AA9116D00D70E40 /* ContentView.swift */,
+				DC33029E2AA9883500D70E40 /* Presentation */,
+				DC3302932AA97A9700D70E40 /* App */,
+				DC3302902AA9132A00D70E40 /* Domain */,
 				DC3302822AA9116E00D70E40 /* Assets.xcassets */,
 				DC3302842AA9116E00D70E40 /* AILab.entitlements */,
 				DC3302852AA9116E00D70E40 /* Preview Content */,
@@ -67,6 +109,68 @@
 				DC3302862AA9116E00D70E40 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC3302902AA9132A00D70E40 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				DC3302962AA97FFB00D70E40 /* Message */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		DC3302932AA97A9700D70E40 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DC33027E2AA9116D00D70E40 /* AILabApp.swift */,
+				DC3302B62AAF53CA00D70E40 /* Constants.swift */,
+				DC3302B82AAFA3D000D70E40 /* Extensions */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DC3302962AA97FFB00D70E40 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				DC3302912AA9136400D70E40 /* MessageRepository.swift */,
+				DC33029D2AA981AC00D70E40 /* Bloc */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		DC33029D2AA981AC00D70E40 /* Bloc */ = {
+			isa = PBXGroup;
+			children = (
+				DC3302972AA9800D00D70E40 /* MessageState.swift */,
+				DC3302992AA9815D00D70E40 /* MessageEvents.swift */,
+				DC33029B2AA981A500D70E40 /* MessageBloc.swift */,
+			);
+			path = Bloc;
+			sourceTree = "<group>";
+		};
+		DC33029E2AA9883500D70E40 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				DC33029F2AA9886000D70E40 /* MessageSearchView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		DC3302A62AAB329F00D70E40 /* AILabTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC3302A72AAB329F00D70E40 /* AILabTests.swift */,
+				DC3302AE2AAB338400D70E40 /* MessageRepositoryTests.swift */,
+			);
+			path = AILabTests;
+			sourceTree = "<group>";
+		};
+		DC3302B82AAFA3D000D70E40 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DC3302B42AAF532200D70E40 /* ViewExcension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,9 +189,30 @@
 			dependencies = (
 			);
 			name = AILab;
+			packageProductDependencies = (
+				DC33028E2AA912A000D70E40 /* OpenAIKit */,
+			);
 			productName = AILab;
 			productReference = DC33027B2AA9116D00D70E40 /* AILab.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DC3302A42AAB329F00D70E40 /* AILabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3302AB2AAB329F00D70E40 /* Build configuration list for PBXNativeTarget "AILabTests" */;
+			buildPhases = (
+				DC3302A12AAB329F00D70E40 /* Sources */,
+				DC3302A22AAB329F00D70E40 /* Frameworks */,
+				DC3302A32AAB329F00D70E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC3302AA2AAB329F00D70E40 /* PBXTargetDependency */,
+			);
+			name = AILabTests;
+			productName = AILabTests;
+			productReference = DC3302A52AAB329F00D70E40 /* AILabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,9 +223,14 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = "TOO MDDT";
 				TargetAttributes = {
 					DC33027A2AA9116D00D70E40 = {
 						CreatedOnToolsVersion = 14.3.1;
+					};
+					DC3302A42AAB329F00D70E40 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DC33027A2AA9116D00D70E40;
 					};
 				};
 			};
@@ -113,11 +243,15 @@
 				Base,
 			);
 			mainGroup = DC3302722AA9116D00D70E40;
+			packageReferences = (
+				DC33028D2AA912A000D70E40 /* XCRemoteSwiftPackageReference "OpenAI" */,
+			);
 			productRefGroup = DC33027C2AA9116D00D70E40 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				DC33027A2AA9116D00D70E40 /* AILab */,
+				DC3302A42AAB329F00D70E40 /* AILabTests */,
 			);
 		};
 /* End PBXProject section */
@@ -127,8 +261,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC3302B32AAF4C2D00D70E40 /* README.md in Resources */,
 				DC3302872AA9116E00D70E40 /* Preview Assets.xcassets in Resources */,
 				DC3302832AA9116E00D70E40 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3302A32AAB329F00D70E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,12 +281,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC3302812AA9116D00D70E40 /* ContentView.swift in Sources */,
+				DC33029C2AA981A500D70E40 /* MessageBloc.swift in Sources */,
+				DC3302B52AAF532200D70E40 /* ViewExcension.swift in Sources */,
 				DC33027F2AA9116D00D70E40 /* AILabApp.swift in Sources */,
+				DC3302982AA9800D00D70E40 /* MessageState.swift in Sources */,
+				DC33029A2AA9815D00D70E40 /* MessageEvents.swift in Sources */,
+				DC3302A02AA9886000D70E40 /* MessageSearchView.swift in Sources */,
+				DC3302922AA9136400D70E40 /* MessageRepository.swift in Sources */,
+				DC3302B72AAF53CA00D70E40 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC3302A12AAB329F00D70E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3302A82AAB329F00D70E40 /* AILabTests.swift in Sources */,
+				DC3302AF2AAB338400D70E40 /* MessageRepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC3302AA2AAB329F00D70E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC33027A2AA9116D00D70E40 /* AILab */;
+			targetProxy = DC3302A92AAB329F00D70E40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DC3302882AA9116E00D70E40 /* Debug */ = {
@@ -332,6 +497,47 @@
 			};
 			name = Release;
 		};
+		DC3302AC2AAB329F00D70E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTJ959KGNQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.mddt.AILabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AILab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AILab";
+			};
+			name = Debug;
+		};
+		DC3302AD2AAB329F00D70E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MTJ959KGNQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tech.mddt.AILabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AILab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AILab";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -353,7 +559,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		DC3302AB2AAB329F00D70E40 /* Build configuration list for PBXNativeTarget "AILabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3302AC2AAB329F00D70E40 /* Debug */,
+				DC3302AD2AAB329F00D70E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC33028D2AA912A000D70E40 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FuturraGroup/OpenAI";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC33028E2AA912A000D70E40 /* OpenAIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC33028D2AA912A000D70E40 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAIKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DC3302732AA9116D00D70E40 /* Project object */;
 }
