@@ -14,7 +14,7 @@ struct MessageSearchView: View {
     var bloc = MessageBloc()
     
     @State
-    var answer: String = ""
+    var answer: String = " "
     
     var body: some View {
         VStack {
